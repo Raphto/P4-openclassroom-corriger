@@ -13,6 +13,10 @@ button {
     outline: none!important;
     padding-right: 5%;
 }
+.textetitre
+{
+    font-size: 50%;
+}
 
 a:hover {
     text-decoration: none;
@@ -134,7 +138,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -379,6 +383,7 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -711,6 +716,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+
 }
 
 h2 {
@@ -745,7 +751,9 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
+    font-size: 120%;
+    font-weight: bold;
 }
 
 .portfolio-thumb {
@@ -789,12 +797,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -855,6 +863,8 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -873,6 +883,21 @@ h4 {
     .container {
         width: 100%;
     }
+    .redimentionimg
+    {
+    width: 100%;
+    }
+    .fa
+    {
+        padding-right: 40px;
+        padding-left: 30px;
+    }
+    .social
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
     .b-parallax {
         background-attachment: scroll;
     }
