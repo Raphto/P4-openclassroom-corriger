@@ -19,6 +19,16 @@ button {
     color: #F7F7F7;
 }
 
+#titre
+{
+    font-size: 300%;
+}
+
+#textzer
+{
+    font-size: 111%;
+    color: white;
+}
 
 .social p
 {
@@ -834,7 +844,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-lines-h2-bg {
