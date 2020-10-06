@@ -15,8 +15,9 @@ button {
 }
 .textetitre
 {
-    font-size: 50%;
+    font-size: 130%;
     color: #F7F7F7;
+    text-align: center;
 }
 
 #titre
@@ -60,6 +61,8 @@ a:hover {
     background-size: cover;
     position: relative;
 }
+
+
 
 .bloc .container {
     padding-left: 0;
@@ -676,7 +679,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -743,7 +745,6 @@ h2 {
 
 h3 {
     font-size: 15px;
-    text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
